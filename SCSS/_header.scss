@@ -1,0 +1,18 @@
+/*Header*/
+header{
+    position: sticky;
+    z-index: 10;
+    top: 0px;
+    nav{
+        div{
+            a{
+                img{
+                    @include size(55px, 50px);
+                }
+            }
+            div{
+                justify-content: end;
+            }
+        }
+    }
+}

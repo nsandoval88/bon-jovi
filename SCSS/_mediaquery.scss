@@ -1,0 +1,38 @@
+/*Media Query*/
+@media only screen and (max-width: 767px){
+    .index-novedades{
+        article{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1{
+            font-size: large;
+        }
+        h2{
+            font-size: medium;
+        }
+        p{
+            font-size: small;
+        }
+        img{
+            @include size(50%, 50%)
+        }
+    }
+
+    .forever-one{
+        display: none;
+    }
+
+    .forever-two{
+        display: block;
+    }
+
+    .card-title{
+        font-size: medium;
+    }
+
+    .card-text{
+        font-size: small;
+    }
+}
